@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    scroll-behavior: smooth;  
+}
+.top-navigation{
+    display:flex;
+    background-color: #C4A484;
+    height: 60px;
+}
+.navbar-left img{
+    width: 60px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    
+}
+.nav-item{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.navbar-right{
+    display: flex;
+    float:right;
+    gap: 2em;
+}
+.nav-link{
+    color: brown;
+    display: flex;
+}
+.navbar-right img{
+    width:20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+.container{
+    background-color: bisque;
+}
+.catalog{
+    justify-content: center;
+    text-align: center;
+}
+.catalog h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    margin-top: 20px;
+}
+input[type=text], select, textarea{
+    width: 400px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.catalog button{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: brown;
+    font-family: sans-serif;
+    width:100px;
+    gap:1em;
+    border-radius: 50px;
+}
+.book-selection{
+    margin-top: 50px;
+}
+.book-selection h2{
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    margin-bottom: 10px;
+}
+.book-selection img{
+    width: 800px;
+    gap:2em;
+}

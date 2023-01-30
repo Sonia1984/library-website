@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    scroll-behavior: smooth;
+}
+.top-navigation{
+    display:flex;
+    background-color: #C4A484;
+    height: 60px;
+}
+.navbar-left img{
+    width: 60px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    
+}
+.nav-item{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.navbar-right{
+    display: flex;
+    float:right;
+    gap: 2em;
+}
+.nav-link{
+    color: brown;
+    display: flex;
+}
+.navbar-right img{
+    width:20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.group-hours{
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.group-details{
+    display: flex;
+    margin-left: 300px;
+}
+.group-details p{
+    font-size: 20px;
+}
+
+.group-details img{
+    width:600px;
+    margin-left: 60px;
+}
+.hr{
+    height:20px;
+    border-width:0;
+    background-color: black;
+}
+.homepage-bottom{
+    display: flex;
+    float: center;
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+.homepage-bottom img{
+    width:600px;
+    margin-left: 350px;
+    justify-content: center;
+}
+.history-library h1{
+    font-size: 30px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 550px;
+    justify-content: center;
+}
+.history-library p{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 50px;
+}

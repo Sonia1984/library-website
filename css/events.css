@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    scroll-behavior: smooth;   
+}
+.top-navigation{
+    display:flex;
+    background-color: #C4A484;
+    height: 60px;
+}
+.navbar-left img{
+    width: 60px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    
+}
+.nav-item{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.navbar-right{
+    display: flex;
+    float:right;
+    gap: 2em;
+}
+.nav-link{
+    color: brown;
+    display: flex;
+}
+.navbar-right img{
+    width:20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+.container{
+    background-image: url(../assets/taylor-D9_QOTmbFAg-unsplash.jpg);
+    background-size: cover;
+}
+.stacked{
+    display: grid;
+}
+stacked > *{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    gap:2em;
+}
+.calendar-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 400px;
+    margin-top: 30px; 
+    
+    
+}
+.card_content{
+    align-self: end;
+    margin: .5rem;
+    padding: .5rem;
+    text-align: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    font-size: 20px;
+    color: white;
+}
+.card{
+    border: 2px solid brown;
+    width:500px;
+    gap:2em;
+}
+.circle{
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  padding: 15px;
+  background: yellow;
+  border: 3px solid white;
+  color: brown;
+  text-align: center;
+  font: 25px Arial, sans-serif;
+}
+.event{
+    margin-top: 20px;
+}
+.place{
+    margin-bottom: 20px;
+}
+.card button{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: brown;
+    font-family: sans-serif;
+    width:100px;
+    gap:1em;
+    border-radius: 50px;
+
+}
