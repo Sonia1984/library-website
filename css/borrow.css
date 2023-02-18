@@ -9,32 +9,42 @@
     background-color: #C4A484;
     height: 60px;
 }
-.navbar-left img{
+.navbar-right img{
     width: 60px;
     border-radius: 30px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     margin-left: 20px;
-    
 }
-.nav-item{
+.navbar-left{
     display: flex;
-    margin-left: 100px;
-    margin-top: 15px;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
 }
-.navbar-right{
+.navbar-left li{
+    list-style-type: none;
+}
+.navbar-left img{
+    width:20px;
     display: flex;
-    float:right;
-    gap: 2em;
-}
+    justify-content: flex-end;
+    margin-right: 10px;
+} 
 .nav-link{
     color: brown;
     display: flex;
 }
-.navbar-right img{
-    width:20px;
+.nav-item{
     display: flex;
-    justify-content: flex-end;
-    margin-right: 5px;
+    align-items: center;
+}
+.nav-item a{
+    text-decoration: none;
+}
+.nav-item a:hover{
+    text-decoration: underline;
+    color: white;
+
 }
 .body{
     background-color: bisque;
@@ -52,7 +62,7 @@
     margin-top: 20px;
 }
 input[type=text], select, textarea{
-    width: 400px;
+    max-width: 25rem;
     padding: 12px;
     border: 1px solid black;
     border-radius: 4px;
@@ -65,12 +75,13 @@ input[type=text], select, textarea{
     color: white;
     background-color: brown;
     font-family: sans-serif;
-    width:100px;
+    max-width:100px;
     gap:1em;
     border-radius: 50px;
 }
 .book-selection{
     margin-top: 50px;
+    text-align: center;
 }
 .book-selection h2{
     text-align: center;
@@ -81,6 +92,8 @@ input[type=text], select, textarea{
     margin-bottom: 10px;
 }
 .book-selection img{
-    width: 800px;
+    max-width: 80%;
     gap:2em;
 }
+
+

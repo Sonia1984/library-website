@@ -9,52 +9,60 @@
     background-color: #C4A484;
     height: 60px;
 }
-.navbar-left img{
+.navbar-right img{
     width: 60px;
     border-radius: 30px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     margin-left: 20px;
-    
 }
-.nav-item{
+.navbar-left{
     display: flex;
-    margin-left: 100px;
-    margin-top: 15px;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
 }
-.navbar-right{
-    display: flex;
-    float:right;
-    gap: 2em;
+.navbar-left li{
+    list-style-type: none;
 }
-.nav-link{
-    color: brown;
-    display: flex;
-}
-.navbar-right img{
+.navbar-left img{
     width:20px;
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
+} 
+.nav-link{
+    color: brown;
+    display: flex;
 }
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+.nav-item a{
+    text-decoration: none;
+}
+.nav-item a:hover{
+    text-decoration: underline;
+    color: white;
 
+}
 .group-hours{
     margin-top: 100px;
     display: flex;
+    justify-content: space-around;
     margin-bottom: 30px;
     margin-left: 50px;
+    flex-wrap: wrap;
 }
-.group-details{
-    display: flex;
-    margin-left: 300px;
-}
-.group-details p{
+.group-details address{
     font-size: 20px;
+    margin:15px 0px;
 }
 
 .group-details img{
     width:600px;
-    margin-left: 60px;
 }
+
 .hr{
     height:20px;
     border-width:0;
@@ -62,22 +70,16 @@
 }
 .homepage-bottom{
     display: flex;
-    float: center;
-    margin-top: 20px;
-    margin-left: 100px;
-
-}
-.homepage-bottom img{
-    width:600px;
-    margin-left: 350px;
     justify-content: center;
 }
-.history-library h1{
+.homepage-bottom img{
+    max-width:600px;
+}
+.history-library h3{
     font-size: 30px;
     color: black;
     margin-top: 20px;
-    margin-left: 550px;
-    justify-content: center;
+    text-align: center;
 }
 .history-library p{
     font-size: 20px;
@@ -86,4 +88,11 @@
     text-align: center;
     line-height: 30px;
     margin-bottom: 50px;
+}
+@media   (max-width:860px){
+    .hours-table{
+    margin-bottom:100px;
+    }
+    
+    
 }

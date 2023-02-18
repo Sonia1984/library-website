@@ -9,63 +9,80 @@
     background-color: #C4A484;
     height: 60px;
 }
-.navbar-left img{
+.navbar-right img{
     width: 60px;
     border-radius: 30px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     margin-left: 20px;
-    
 }
-.nav-item{
+.navbar-left{
     display: flex;
-    margin-left: 100px;
-    margin-top: 15px;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
 }
-.navbar-right{
+.navbar-left li{
+    list-style-type: none;
+}
+.navbar-left img{
+    width:20px;
     display: flex;
-    float:right;
-    gap: 2em;
-}
+    justify-content: flex-end;
+    margin-right: 10px;
+} 
 .nav-link{
     color: brown;
     display: flex;
 }
-.navbar-right img{
-    width:20px;
+.nav-item{
     display: flex;
-    justify-content: flex-end;
-    margin-right: 5px;
+    align-items: center;
+}
+.nav-item a{
+    text-decoration: none;
+}
+.nav-item a:hover{
+    text-decoration: underline;
+    color: white;
+
 }
 
 .login-form{
-    background-color: bisque;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 20px -10px;
+width:500px;
+margin: 20px auto;
+text-align: center;
 }
-button {   
-    background-color: #4CAF50;   
-    width: 200px;  
-     color: orange;   
-     padding: 15px;   
-     margin: 10px 0px;   
-     border: none;   
-     cursor: pointer;   
-      }       
 input[type=text], input[type=password] {   
-     width: 200px;   
-     margin: 8px 0;  
-     padding: 12px 20px;   
-     display: inline-block;   
-     border: 2px solid green;   
-     box-sizing: border-box;   
- }  
+    width: 200px;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 2px solid black;   
+    box-sizing: border-box;   
+} 
+button {   
+    background-color: brown;   
+    width: 40%;
+    border-radius: 15px;
+     color: white;   
+     padding: 15px;   
+     margin: 20px 0px;  
+     border: none;   
+     cursor: pointer; 
+      }  
+      .forget-password{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }     
+ 
 button:hover {   
      opacity: 0.7;   
  }   
-.cancelbtn {   
-     width: auto;   
-     padding: 10px 18px;  
-     margin: 10px 5px;  
- }  
-
+ .welcome{
+    padding-left: 30px;
+ }
  .welcome h1{
     font-size: 30px;
     color: brown;
@@ -78,9 +95,9 @@ button:hover {
  .fave-books h2{
     font-size: 30px;
     color: brown;
-    margin-left: 400px;
+    margin-bottom: 10px;
  }
- .fave-books img{
-    margin-left: 400px;
-    width:700px;
+ .fave-books{
+    /* width:700px; */
+    text-align: center;
  }
